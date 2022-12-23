@@ -1,0 +1,176 @@
+/* GENERAL */
+* {
+    font-family: 'Roboto ';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #CCC;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #F2A340;
+    border: 2px solid #c28008;
+}
+
+.btn-primary:hover {
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+.msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/* navbar */
+
+#navbar img {
+    width: 40px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #F2A340;
+}
+
+
+
+/* TABLES */
+
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th{
+    width: 25%;
+}
+.dashboard-events-container td{
+    width: 25% !important;margin: auto;
+}
+
+.edit-btn{
+    color: white;
+}
+
+.edit-btn:hover{
+    color: white;
+}
+
+.dashboard-events-container form{
+    display: inline-block;
+}
+
+/* CATEGORY SEARCH */
+#search-container {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: #F2A340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* CREATE & EDIT */
+
+.msg-error{
+    background-color: #ebc5c5;
+    color: #571515;
+    border: 1px solid #e6c3c3;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#category-create-container{
+    padding: 30px;
+}
+
+#category-create-container label{
+    font-weight: bold;
+}
+
+#category-create-container input{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.buttons{
+    display: inline-block;
+}
+
+.buttons a, .buttons input{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px!important;
+    text-align: center;
+}
+
+.buttons a{
+    padding-top: 11px;
+    margin-bottom: 10px;
+}
+
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: #353E48;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p{
+    margin: 0;
+}
